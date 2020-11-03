@@ -1,0 +1,13 @@
+{
+  "name": "video-transcoding",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "fei song <runtime1983@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.0.5"
+  },
+  "scripts": {
+    "start": "tsc -p . && node ./dist"
+  }
+}
